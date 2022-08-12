@@ -9,10 +9,10 @@ def learn_bike(request):
     return render(request,'landing/learn_bike.html')
 
 def learn_car(request):
-    return render (request,'landing\learn_car.html')
+    return render (request,'landing/learn_car.html')
 
 def learn_excavator(request):
-    return render (request,'landing\learn_excavator.html')
+    return render (request,'landing/learn_excavator.html')
 
 def about_us(request):
     return render (request,'landing/about_us.html')
